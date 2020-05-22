@@ -128,7 +128,7 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
-				</plugin>
+			</plugin>
 
 			<!-- query dsl -->
 			<plugin>
