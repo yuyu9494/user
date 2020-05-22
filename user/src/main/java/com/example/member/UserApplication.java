@@ -12,9 +12,9 @@ public class UserApplication extends SpringBootServletInitializer {
 		SpringApplication.run(UserApplication.class, args);
 	}
 
-//	@Override
-//	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-//		return builder.sources(UserApplication.class);
-//	}
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(UserApplication.class);
+	}
 
 }
